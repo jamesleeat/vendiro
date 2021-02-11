@@ -6813,6 +6813,11 @@ video {
   outline-offset: 2px;
 }
 
+.outline-primary {
+  outline: 1px solid #35B091;
+  outline-offset: 0;
+}
+
 .focus-within\:outline-none:focus-within {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -6828,6 +6833,11 @@ video {
   outline-offset: 2px;
 }
 
+.focus-within\:outline-primary:focus-within {
+  outline: 1px solid #35B091;
+  outline-offset: 0;
+}
+
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -6841,6 +6851,11 @@ video {
 .focus\:outline-black:focus {
   outline: 2px dotted black;
   outline-offset: 2px;
+}
+
+.focus\:outline-primary:focus {
+  outline: 1px solid #35B091;
+  outline-offset: 0;
 }
 
 .overflow-auto {
@@ -16972,10 +16987,6 @@ video {
           animation: bounce 1s infinite;
 }
 
-select option {
-  color: black;
-}
-
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -23237,6 +23248,11 @@ select option {
     outline-offset: 2px;
   }
 
+  .sm\:outline-primary {
+    outline: 1px solid #35B091;
+    outline-offset: 0;
+  }
+
   .sm\:focus-within\:outline-none:focus-within {
     outline: 2px solid transparent;
     outline-offset: 2px;
@@ -23252,6 +23268,11 @@ select option {
     outline-offset: 2px;
   }
 
+  .sm\:focus-within\:outline-primary:focus-within {
+    outline: 1px solid #35B091;
+    outline-offset: 0;
+  }
+
   .sm\:focus\:outline-none:focus {
     outline: 2px solid transparent;
     outline-offset: 2px;
@@ -23265,6 +23286,11 @@ select option {
   .sm\:focus\:outline-black:focus {
     outline: 2px dotted black;
     outline-offset: 2px;
+  }
+
+  .sm\:focus\:outline-primary:focus {
+    outline: 1px solid #35B091;
+    outline-offset: 0;
   }
 
   .sm\:overflow-auto {
@@ -39579,6 +39605,11 @@ select option {
     outline-offset: 2px;
   }
 
+  .md\:outline-primary {
+    outline: 1px solid #35B091;
+    outline-offset: 0;
+  }
+
   .md\:focus-within\:outline-none:focus-within {
     outline: 2px solid transparent;
     outline-offset: 2px;
@@ -39594,6 +39625,11 @@ select option {
     outline-offset: 2px;
   }
 
+  .md\:focus-within\:outline-primary:focus-within {
+    outline: 1px solid #35B091;
+    outline-offset: 0;
+  }
+
   .md\:focus\:outline-none:focus {
     outline: 2px solid transparent;
     outline-offset: 2px;
@@ -39607,6 +39643,11 @@ select option {
   .md\:focus\:outline-black:focus {
     outline: 2px dotted black;
     outline-offset: 2px;
+  }
+
+  .md\:focus\:outline-primary:focus {
+    outline: 1px solid #35B091;
+    outline-offset: 0;
   }
 
   .md\:overflow-auto {
@@ -55921,6 +55962,11 @@ select option {
     outline-offset: 2px;
   }
 
+  .lg\:outline-primary {
+    outline: 1px solid #35B091;
+    outline-offset: 0;
+  }
+
   .lg\:focus-within\:outline-none:focus-within {
     outline: 2px solid transparent;
     outline-offset: 2px;
@@ -55936,6 +55982,11 @@ select option {
     outline-offset: 2px;
   }
 
+  .lg\:focus-within\:outline-primary:focus-within {
+    outline: 1px solid #35B091;
+    outline-offset: 0;
+  }
+
   .lg\:focus\:outline-none:focus {
     outline: 2px solid transparent;
     outline-offset: 2px;
@@ -55949,6 +56000,11 @@ select option {
   .lg\:focus\:outline-black:focus {
     outline: 2px dotted black;
     outline-offset: 2px;
+  }
+
+  .lg\:focus\:outline-primary:focus {
+    outline: 1px solid #35B091;
+    outline-offset: 0;
   }
 
   .lg\:overflow-auto {
@@ -72263,6 +72319,11 @@ select option {
     outline-offset: 2px;
   }
 
+  .xl\:outline-primary {
+    outline: 1px solid #35B091;
+    outline-offset: 0;
+  }
+
   .xl\:focus-within\:outline-none:focus-within {
     outline: 2px solid transparent;
     outline-offset: 2px;
@@ -72278,6 +72339,11 @@ select option {
     outline-offset: 2px;
   }
 
+  .xl\:focus-within\:outline-primary:focus-within {
+    outline: 1px solid #35B091;
+    outline-offset: 0;
+  }
+
   .xl\:focus\:outline-none:focus {
     outline: 2px solid transparent;
     outline-offset: 2px;
@@ -72291,6 +72357,11 @@ select option {
   .xl\:focus\:outline-black:focus {
     outline: 2px dotted black;
     outline-offset: 2px;
+  }
+
+  .xl\:focus\:outline-primary:focus {
+    outline: 1px solid #35B091;
+    outline-offset: 0;
   }
 
   .xl\:overflow-auto {
@@ -88605,6 +88676,11 @@ select option {
     outline-offset: 2px;
   }
 
+  .\32xl\:outline-primary {
+    outline: 1px solid #35B091;
+    outline-offset: 0;
+  }
+
   .\32xl\:focus-within\:outline-none:focus-within {
     outline: 2px solid transparent;
     outline-offset: 2px;
@@ -88620,6 +88696,11 @@ select option {
     outline-offset: 2px;
   }
 
+  .\32xl\:focus-within\:outline-primary:focus-within {
+    outline: 1px solid #35B091;
+    outline-offset: 0;
+  }
+
   .\32xl\:focus\:outline-none:focus {
     outline: 2px solid transparent;
     outline-offset: 2px;
@@ -88633,6 +88714,11 @@ select option {
   .\32xl\:focus\:outline-black:focus {
     outline: 2px dotted black;
     outline-offset: 2px;
+  }
+
+  .\32xl\:focus\:outline-primary:focus {
+    outline: 1px solid #35B091;
+    outline-offset: 0;
   }
 
   .\32xl\:overflow-auto {

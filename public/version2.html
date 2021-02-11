@@ -1,0 +1,63 @@
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="/build/tailwind.css" rel="stylesheet" />
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="js/index.js"></script>
+</head>
+
+<body>
+  <div class="container mx-auto">
+    
+    <div>
+      <a class=" inline-block border mt-6 py-2 px-6 border-primary rounded-full focus:outline-none text-primary" href="index.html">
+        Go back
+      </a>
+    </div>
+  
+      <div class="relative inline-block text-left mt-7">
+        <div>
+          <button class="dropdown-btn   border py-2 px-6 border-primary rounded-full focus:outline-none text-primary">
+            <div class="flex justify-between content-center px-4 text-xs">
+              <span>Add filter</span> <span>+</span>
+            </div>
+          </button>
+        </div>
+
+        <div id="filterFormDropdown" class="bg-secondary relative shadow mt-8 hidden">
+          <img src="triangle.svg" class="absolute left-6 -top-6">
+          <img src="close.svg" class="close-btn absolute px-8 py-6 top-0 right-0 cursor-pointer" />
+          <div class=" px-8 py-6">
+            <p class="text-2xl font-bold mb-8">Add filter</p>
+            <form action="">
+              <label class="block font-light text-xs mb-1 py-1 px-2" for="column">Column</label>
+              <select class="w-full shadow mb-7 text-sm py-1 px-2 focus:outline-primary" name="column" id="column"
+                required>
+                <option value="" hidden disabled selected>Choose a method</option>
+              </select>
+              <label class="block font-light text-xs mb-1" for="method">Method</label>
+              <select class="w-full shadow mb-7 text-sm py-1 px-2 focus:outline-primary" name="method" id="method">
+                <option class="bg-secondary" value="" hidden default disabled selected>Choose a method</option>
+              </select>
+              <label class="block font-light text-xs mb-1 " for="input_value">Value</label>
+              <input class="w-full shadow text-sm py-1 px-2 mb-7 focus:outline-primary" placeholder="Choose a value"
+                name="input_value" id="input_value" type="text"></input>
+              <div class="text-center">
+                <button
+                  class="close-btn w-32 h-7 mx-5 border border-primary rounded focus:outline-none text-primary">Cancel</button>
+                <button
+                  class="add-btn w-32 h-7 mx-5 border border-primary  rounded focus:outline-none text-white bg-primary"
+                  type="submit">Add
+                  filter</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+  </div>
+
+</body>
+
+</html>
