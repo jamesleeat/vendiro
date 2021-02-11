@@ -23,8 +23,8 @@ $(document).ready(function () {
         return a;
       }, {});
     filters.push(formData);
+    alert(`Filter added! Check the console.`)
     console.log(filters);
-    // $("#filterFormDropdown").toggle();
   });
 
   options.columns.forEach((value) => {
